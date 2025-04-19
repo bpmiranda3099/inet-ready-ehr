@@ -9,7 +9,8 @@ RUN npm install
 
 COPY . .
 
-# Use PORT env for Aptible
-EXPOSE $PORT
+# Explicitly expose the port
+EXPOSE 3000
 
+# Use the PORT environment variable for Aptible
 CMD ["node", "server.js"]
