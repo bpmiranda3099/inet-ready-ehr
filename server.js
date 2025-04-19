@@ -32,6 +32,12 @@ const pool = new Pool({
 // Middleware
 app.use(express.json());
 
+const cors = require('cors');
+app.use(cors({
+  origin: 'https://inet-ready-v2.vercel.app',
+  credentials: true
+}));
+
 const verifyToken = async (req, res, next) => {
   const authHeader = req.headers.authorization || '';
   const token = authHeader.replace('Bearer ', '');
