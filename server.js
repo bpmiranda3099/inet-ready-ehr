@@ -94,3 +94,20 @@ app.post('/store-medical-data', verifyToken, async (req, res) => {
 app.listen(port, () => {
   console.log(`✅ Medical backend listening on port ${port}`);
 });
+
+// 🚀 DELETE /delete-medical-data
+app.delete('/delete-medical-data', verifyToken, async (req, res) => {
+  try {
+    const result = await pool.query(
+      `DELETE FROM medical_data WHERE user_id = $1 RETURNING *`,
+      [req.user.uid]
+    );
+    if (result.rowCount === 0) {
+      return res.status(404).json({ error: 'No entry found to delete' });
+    }
+    return res.json({ message: 'Entry deleted', deleted: result.rows[0] });
+  } catch (err) {
+    console.error('Error deleting medical data:', err);
+    return res.status(500).json({ error: 'Server error' });
+  }
+});
