@@ -5,7 +5,7 @@ require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Firebase Admin SDK
+// Firebase Admin 
 const serviceAccount = {
   "type": process.env.FIREBASE_TYPE,
   "project_id": process.env.FIREBASE_PROJECT_ID,
