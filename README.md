@@ -6,7 +6,7 @@
 ![Platform](https://img.shields.io/badge/platform-Web-brightgreen)
 ![Status](https://img.shields.io/badge/status-Active-success)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--4716--7429-green.svg)](https://orcid.org/0009-0008-4716-7429)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fbpmiranda3099.github.io%2Finet-ready-ehr%2F&label=Website&color=purple)](https://inet-ready-v2.vercel.app)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Finet-ready-v2.vercel.app&up_message=live&down_message=offline&timeout=1000&label=Website&color=purple)](https://inet-ready-v2.vercel.app)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=bpmiranda3099.inet-ready-ehr)
 
 </div>
