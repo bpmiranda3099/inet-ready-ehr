@@ -3,6 +3,12 @@ name: Deploy to Aptible
 on:
   push:
     branches: [main]
+    paths:
+      - "server.js"
+      - "Dockerfile"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/deploy.yml"
 
 jobs:
   deploy:
