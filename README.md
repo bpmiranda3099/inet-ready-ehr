@@ -10,8 +10,9 @@
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=bpmiranda3099.inet-ready-ehr)
 
 </div>
+## 📝 Overview
 
-A secure, modern Electronic Health Record (EHR) backend built with Node.js, Express, PostgreSQL, and Firebase Authentication. Designed for seamless integration with modern web frontends and deployment on cloud platforms like Aptible.
+This Electronic Health Record (EHR) system is built using Node.js, Express, PostgreSQL, and Firebase Authentication. It is deployed on Aptible to ensure it meets strict legal requirements for handling medical data. The system is designed to work with the INET-READY platform, making travel safer and more informed.
 
 ---
 
