@@ -1,17 +1,21 @@
-# INET-READY: Electronic Health Record (EHR)
+# INET-READY:
 
 A secure, modern Electronic Health Record (EHR) backend built with Node.js, Express, PostgreSQL, and Firebase Authentication. Designed for seamless integration with modern web frontends and deployment on cloud platforms like Aptible.
 
 ---
 
 <div align="center">
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-  ![Platform](https://img.shields.io/badge/platform-Web-brightgreen)
-  ![Status](https://img.shields.io/badge/status-Active-success)
-  [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--4716--7429-green.svg)](https://orcid.org/0009-0008-4716-7429)
-  [![Website](https://img.shields.io/website?url=https%3A%2F%2Fbpmiranda3099.github.io%2Finet-ready-ehr%2F&label=Website&color=purple)](https://bpmiranda3099.github.io/inet-ready-ehr/)
-  ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=bpmiranda3099.inet-ready-ehr)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![Platform](https://img.shields.io/badge/platform-Web-brightgreen)
+![Status](https://img.shields.io/badge/status-Active-success)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--4716--7429-green.svg)](https://orcid.org/0009-0008-4716-7429)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fbpmiranda3099.github.io%2Finet-ready-ehr%2F&label=Website&color=purple)](https://bpmiranda3099.github.io/inet-ready-ehr/)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=bpmiranda3099.inet-ready-ehr)
+
 </div>
+
+---
 
 ## 🚀 Features
 
