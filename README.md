@@ -178,4 +178,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> _Built with ❤️ for modern healthcare solutions._
+> _Your Heat Check for Safe and Informed Travel._
