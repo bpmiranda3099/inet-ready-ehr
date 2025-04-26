@@ -37,7 +37,7 @@ app.use(express.json());
 
 const cors = require('cors');
 app.use(cors({
-  origin: ['https://inet-ready-v2.vercel.app', 'https://inet-ready-v2-git-mapbox-integration-bpmiranda3099s-projects.vercel.app', 'http://localhost:5173/app'],
+  origin: ['https://inet-ready-v2.vercel.app', 'https://inet-ready-v2-git-mapbox-integration-bpmiranda3099s-projects.vercel.app', 'http://localhost:5173'],
   credentials: true
 }));
 
